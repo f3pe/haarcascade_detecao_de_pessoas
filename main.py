@@ -2,7 +2,7 @@ import cv2
 
 def main():
     #Carrega arquivos necessarios
-    XML_PATH = 'cascades/haarcascade_fullbody.xml'
+    XML_PATH = 'haarcascade_fullbody.xml'
     personCascade = cv2.CascadeClassifier(XML_PATH)
     video = cv2.VideoCapture('vtest.avi')
 
